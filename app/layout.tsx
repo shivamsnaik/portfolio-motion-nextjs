@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   description: "Responsive Portfolio Website",
 };
 
+const themeColor = 'dark';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,13 +30,15 @@ export default function RootLayout({
     <html 
       lang="en" 
       suppressHydrationWarning
-      >
+      style={{ colorScheme: themeColor }} // <-- fix theming issues
+      className={themeColor} // <-- fix theming issues
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme={themeColor}
           enableSystem
           disableTransitionOnChange
         >
