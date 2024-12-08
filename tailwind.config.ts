@@ -8,7 +8,7 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
-  darkMode: ["class"],
+  darkMode: 'selector',
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -27,6 +27,9 @@ const config = {
     },
     extend: {
       colors: {
+        green: {
+          DEFAULT: '#86E7B8'
+        },
         black: {
           DEFAULT: "#000",
           100: "#000319",
@@ -39,9 +42,13 @@ const config = {
           200: "#C1C2D3",
         },
         blue: {
-          "100": "#E4ECFF",
+          "100": "rgb(228,236,255)",
+          "200": '#08B2E3',
         },
-        purple: "#CBACF9",
+        purple: {
+          DEFAULT: "#CBACF9",
+          '100': "#453F78"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
