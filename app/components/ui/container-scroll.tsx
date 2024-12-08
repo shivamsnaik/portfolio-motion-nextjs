@@ -3,7 +3,6 @@ import React, { useRef } from "react";
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
 
 export const ContainerScroll = ({
-  className,
   titleComponent,
   children,
 }: {
