@@ -3,9 +3,7 @@ import Hero from "./components/Hero";
 import { FloatingNav } from "./components/ui/floating-navbar";
 import { FaHome } from "react-icons/fa";
 import Grid from "./components/Grid";
-import { MacbookScroll } from "./components/ui/macbook-scroll";
-import Link from "next/link";
-import { WorldMap } from "./components/ui/world-map";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
@@ -19,6 +17,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <Experience/>
       </div>
     </main>
   );
