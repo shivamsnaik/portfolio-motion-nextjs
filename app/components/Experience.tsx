@@ -13,12 +13,11 @@ const Experience = () => {
                                 with Various Projects
                             </span>
                         </h1>
-                    </>} children={
-                        <img
+                    </>}>
+                    <img
                         className='w-full h-full'
                         src='https://nextcloud.shivamnaik.de/s/ZFPigPbPH2LLecE/download/Screenshot%202024-12-08%20170813.png'
                     />
-                    }>
                 </ContainerScroll>
             </div>
         </section>
