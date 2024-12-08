@@ -3,6 +3,7 @@ import { FloatingNav } from "./components/ui/floating-navbar";
 import { FaHome } from "react-icons/fa";
 import Grid from "./components/Grid";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <Experience/>
+        <Footer/>
       </div>
     </main>
   );
