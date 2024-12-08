@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 
 export default function Home() {
   return (
-    <main className="relative bg-blue-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative bg-white flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav 
           className=""
